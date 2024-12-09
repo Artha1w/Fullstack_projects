@@ -1,0 +1,26 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1, h3 {
+    color: #343a40;
+}
+
+#cart-items .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#cart-items .card img {
+    border-radius: 10px 10px 0 0;
+}
+
+#cart-items .card-body {
+    text-align: center;
+}
+
+#cart-items .btn-danger {
+    background-color: #d9534f;
+    border: none;
+}
