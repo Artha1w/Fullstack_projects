@@ -1,0 +1,56 @@
+/* Carousel Background */
+#heroCarousel {
+    position: relative;
+    height: 100vh;
+  }
+  #heroCarousel .carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Welcome Overlay */
+  .welcome-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .welcome-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  /* Content Section */
+  .content-section {
+    background-color: #f9f9f9;
+  }
+  
+  .content-section h2 {
+    color: #0066cc;
+  }
+  
+  .card-title {
+    color: #004085;
+  }
+  
+  .card {
+    transition: transform 0.2s ease;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+    
